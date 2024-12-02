@@ -1,0 +1,25 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñª‘Ú
+`	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(ÃŸè°ùÿÿÿÿ
+`	java:S112I"FDefine and throw a dedicated exception instead of using a generic one.(¢Ğùÿÿÿÿ
+\	java:S112‘"FDefine and throw a dedicated exception instead of using a generic one.(®Ï²Ï
+d
+java:S1192d"IDefine a constant instead of duplicating this literal "location" 3 times.(ŞªÜüÿÿÿÿ
+
+java:S1186˜"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(à™„¹
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(—¸è¨
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(æ•˜ä
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÊÛœ¿úÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Çˆàëúÿÿÿÿ
+Z
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(™İél
+J
+java:S26956"/This "PreparedStatement" only has 2 parameters.(ôŒÏúÿÿÿÿ
+4
+java:S6905"Don't use the query "SELECT *".(™İél
