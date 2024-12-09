@@ -11,37 +11,30 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="764.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.juan.view.CarsConfigController">
    <children>
-      <Text fill="WHITE" layoutX="330.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coches">
+      <Text fill="WHITE" layoutX="20.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coches">
          <font>
             <Font name="Cambria Math" size="42.0" />
          </font>
       </Text>
-      <Button fx:id="crear" layoutX="544.0" layoutY="162.0" mnemonicParsing="false" onAction="#changeSceneToCreateCars" prefHeight="42.0" prefWidth="171.0" style="-fx-background-radius: 20; -fx-background-color: #62666e; -fx-text-fill: white;" text="Crear Coche" textFill="WHITE">
-         <font>
-            <Font name="Cambria Math" size="16.0" />
-         </font>
-      </Button>
-      <TableView fx:id="table" layoutX="38.0" layoutY="115.0" prefHeight="245.0" prefWidth="473.0" style="-fx-background-color: #62666e;">
+      <TableView fx:id="table" layoutX="20.0" layoutY="80.0" prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: #1e1e1e; -fx-text-background-color: white;">
          <columns>
-            <TableColumn fx:id="Id" prefWidth="87.20001411437988" text="ID" />
-            <TableColumn fx:id="model" prefWidth="124.0" text="Modelo" />
-            <TableColumn fx:id="tuition" minWidth="1.5999755859375" prefWidth="252.0" text="Matricula" />
+            <TableColumn fx:id="Id" prefWidth="100.0" text="ID" />
+            <TableColumn fx:id="model" prefWidth="150.0" text="Modelo" />
+            <TableColumn fx:id="tuition" prefWidth="250.0" text="Matrícula" />
          </columns>
       </TableView>
-      <ImageView fx:id="volver" fitHeight="51.0" fitWidth="54.0" layoutX="26.0" layoutY="27.0" onMouseClicked="#changeSceneToMainPage" pickOnBounds="true" preserveRatio="true">
+      <Pane layoutX="540.0" layoutY="80.0" prefHeight="300.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="crear" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#changeSceneToCreateCars" prefHeight="42.0" prefWidth="150.0" style="-fx-background-color: gray; -fx-text-fill: black; -fx-background-radius: 20;" text="Crear Coche" />
+            <Button fx:id="anadir" layoutX="10.0" layoutY="70.0" mnemonicParsing="false" onAction="#changeSceneToAddCarsGarage" prefHeight="42.0" prefWidth="150.0" style="-fx-background-color: gray; -fx-text-fill: black; -fx-background-radius: 20;" text="Añadir a un garaje" />
+            <Button fx:id="eliminar" layoutX="10.0" layoutY="130.0" mnemonicParsing="false" onAction="#changeSceneToDeleteCars" prefHeight="42.0" prefWidth="150.0" style="-fx-background-color: gray; -fx-text-fill: black; -fx-background-radius: 20;" text="Borrar Coche" />
+         </children>
+      </Pane>
+      <ImageView fx:id="volver" fitHeight="51.0" fitWidth="54.0" layoutX="20.0" layoutY="420.0" onMouseClicked="#changeSceneToMainPage" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Back.png" />
          </image>
       </ImageView>
-      <Button fx:id="eliminar" layoutX="544.0" layoutY="306.0" mnemonicParsing="false" onAction="#changeSceneToDeleteCars" prefHeight="36.0" prefWidth="171.0" style="-fx-background-radius: 20; -fx-background-color: #62666e; -fx-text-fill: white;" text="Borrar Coche">
-         <font>
-            <Font name="Cambria Math" size="16.0" />
-         </font>
-      </Button>
-      <Button fx:id="anadir" layoutX="544.0" layoutY="237.0" mnemonicParsing="false" onAction="#changeSceneToAddCarsGarage" prefHeight="36.0" prefWidth="171.0" style="-fx-background-radius: 20; -fx-background-color: #62666e; -fx-text-fill: white;" text="Añadir a un garaje">
-         <font>
-            <Font name="Cambria Math" size="16.0" />
-         </font>
-      </Button>
    </children>
 </Pane>
+

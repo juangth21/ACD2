@@ -1,19 +1,19 @@
 
+
+java:S1104"QMake scene a static final constant or non-public and provide accessors if needed.(äõJ$3ca249ac-ba7b-4cf8-8827-7f45795f1578
+
+java:S1104"QMake stage a static final constant or non-public and provide accessors if needed.(œ‰àJ$2d9e4d94-671a-466b-afab-9a43c26ca8ba
+™
+java:S1104"]Make currentController a static final constant or non-public and provide accessors if needed.(½«İJ$5ddaeaf7-f025-4b67-8492-b14378ed1e38
 g
-java:S1104"QMake scene a static final constant or non-public and provide accessors if needed.(äõ
+java:S1444"+Make this "public static scene" field final(äõJ$78d24a93-276f-4906-bdb3-87608cee9492
 g
-java:S1104"QMake stage a static final constant or non-public and provide accessors if needed.(œ‰à
+java:S1444"+Make this "public static stage" field final(œ‰àJ$0fca4006-d8fd-4bc6-a0b8-a96827cd8c43
 s
-java:S1104"]Make currentController a static final constant or non-public and provide accessors if needed.(½«İ
-A
-java:S1444"+Make this "public static scene" field final(äõ
-A
-java:S1444"+Make this "public static stage" field final(œ‰à
-M
-java:S1444"7Make this "public static currentController" field final(½«İ
-—
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÅêÈæ
-Q
-java:S2696"6Make the enclosing method "static" or remove this set.(İ°½şÿÿÿÿ
-Q
-java:S2696"6Make the enclosing method "static" or remove this set.(ßÆÎ­şÿÿÿÿ
+java:S1444"7Make this "public static currentController" field final(½«İJ$647c4f3b-dcab-40f9-a1d1-4a757a03f4fa
+½
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÅêÈæJ$d83d81d8-efaf-42cd-8ebb-da5d7ca2831d
+w
+java:S2696"6Make the enclosing method "static" or remove this set.(İ°½şÿÿÿÿJ$116e2227-f9a5-4496-bbde-78167140bd5b
+w
+java:S2696"6Make the enclosing method "static" or remove this set.(ßÆÎ­şÿÿÿÿJ$f5e7bde6-70ae-4be9-869d-87e71a3bd4d8

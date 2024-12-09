@@ -10,40 +10,37 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="764.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.juan.view.DeleteCarsController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="764.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.juan.view.DeleteCarsController">
    <children>
-      <Text fill="#4851ff" layoutX="300.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lista de coches">
+      <Text fill="WHITE" layoutX="20.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lista de coches">
          <font>
             <Font name="Cambria Math" size="24.0" />
          </font>
       </Text>
-      <TableView fx:id="table" layoutX="26.0" layoutY="97.0" prefHeight="200.0" prefWidth="720.0">
+      <TableView fx:id="table" layoutX="20.0" layoutY="80.0" prefHeight="200.0" prefWidth="500.0" style="-fx-background-color: #1e1e1e; -fx-text-background-color: white;">
          <columns>
-            <TableColumn fx:id="Id" prefWidth="87.20001411437988" text="ID" />
-            <TableColumn fx:id="model" prefWidth="340.7999496459961" text="Modelo" />
-            <TableColumn fx:id="tuition" minWidth="1.5999755859375" prefWidth="151.19998168945312" text="Matricula" />
-            <TableColumn fx:id="weight" minWidth="0.0" prefWidth="139.199951171875" text="Peso" />
+            <TableColumn fx:id="Id" prefWidth="100.0" text="ID" />
+            <TableColumn fx:id="model" prefWidth="200.0" text="Modelo" />
+            <TableColumn fx:id="tuition" prefWidth="100.0" text="Matrícula" />
+            <TableColumn fx:id="weight" prefWidth="100.0" text="Peso" />
          </columns>
       </TableView>
-      <ImageView fx:id="volver" fitHeight="51.0" fitWidth="54.0" layoutX="26.0" layoutY="27.0" onMouseClicked="#changeSceneToCarsConfig" pickOnBounds="true" preserveRatio="true">
+      <Pane layoutX="540.0" layoutY="80.0" prefHeight="300.0" prefWidth="200.0">
+         <children>
+            <Text fill="WHITE" layoutX="10.0" layoutY="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Introduce el ID">
+               <font>
+                  <Font name="Cambria Math" size="20.0" />
+               </font>
+            </Text>
+            <TextField fx:id="ids" layoutX="10.0" layoutY="40.0" prefHeight="36.0" prefWidth="150.0" promptText="ID" style="-fx-background-color: gray; -fx-text-fill: black;" />
+            <Button fx:id="eliminar" layoutX="10.0" layoutY="100.0" mnemonicParsing="false" onAction="#deleteCars" prefHeight="42.0" prefWidth="150.0" style="-fx-background-color: gray; -fx-text-fill: black; -fx-background-radius: 20;" text="Borrar coche" />
+         </children>
+      </Pane>
+      <ImageView fx:id="volver" fitHeight="51.0" fitWidth="54.0" layoutX="20.0" layoutY="420.0" onMouseClicked="#changeSceneToCarsConfig" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Back.png" />
          </image>
       </ImageView>
-      <Button fx:id="eliminar" layoutX="307.0" layoutY="402.0" mnemonicParsing="false" onAction="#deleteCars" prefHeight="44.0" prefWidth="151.0" style="-fx-background-radius: 20;" text="Borrar coche">
-         <font>
-            <Font name="Cambria Math" size="16.0" />
-         </font>
-      </Button>
-      <Text fill="#4851ff" layoutX="306.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Introduce el Id" textAlignment="CENTER">
-         <font>
-            <Font name="Cambria Math" size="24.0" />
-         </font>
-      </Text>
-      <TextField fx:id="ids" layoutX="282.0" layoutY="354.0" prefHeight="36.0" prefWidth="198.0" promptText="Id">
-         <font>
-            <Font name="Cambria Math" size="12.0" />
-         </font>
-      </TextField>
    </children>
 </Pane>
+
