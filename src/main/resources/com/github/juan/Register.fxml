@@ -11,12 +11,14 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="628.0" prefWidth="757.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.juan.view.RegisterController">
    <children>
+      <!-- Titulo principal -->
       <Text fill="WHITE" layoutX="272.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registrarse" textAlignment="CENTER" wrappingWidth="198.0">
          <font>
             <Font name="Cambria Math" size="30.0" />
          </font>
       </Text>
 
+      <!-- Etiqueta y campo "Nombre de usuario" -->
       <Text fill="WHITE" layoutX="314.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre de usuario">
          <font>
             <Font name="Cambria Math" size="14.0" />
@@ -28,6 +30,7 @@
          </font>
       </TextField>
 
+      <!-- Etiqueta y campo "Nombre" -->
       <Text fill="WHITE" layoutX="346.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre">
          <font>
             <Font name="Cambria Math" size="14.0" />
@@ -39,6 +42,7 @@
          </font>
       </TextField>
 
+      <!-- Etiqueta y campo "Correo" -->
       <Text fill="WHITE" layoutX="350.0" layoutY="451.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Correo">
          <font>
             <Font name="Cambria Math" size="14.0" />
@@ -50,6 +54,7 @@
          </font>
       </TextField>
 
+      <!-- Etiqueta y campo "Contraseña" -->
       <Text fill="WHITE" layoutX="337.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contraseña">
          <font>
             <Font name="Cambria Math" size="14.0" />
@@ -61,11 +66,13 @@
          </font>
       </PasswordField>
 
+      <!-- Botón de registro -->
       <Button fx:id="registrarse" layoutX="271.0" layoutY="537.0" mnemonicParsing="false" onAction="#Register" prefHeight="30.0" prefWidth="113.0" style="-fx-background-radius: 20; -fx-background-color: #62666e;" text="Registrar" />
 
+      <!-- Imagen de retroceso (botón para regresar) -->
       <ImageView fx:id="boton" fitHeight="36.0" fitWidth="36.0" layoutX="14.0" layoutY="24.0" onMouseClicked="#changeSceneToLoginPage" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image fx:id="boton" url="" />
+            <Image fx:id="boton" url="@Back.png" />
          </image>
       </ImageView>
    </children>

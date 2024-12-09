@@ -11,18 +11,21 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="764.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.juan.view.GarageConfigController">
    <children>
+      <!-- Titulo de la pagina -->
       <Text fill="WHITE" layoutX="287.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Garages" wrappingWidth="192.90234375">
          <font>
             <Font name="Cambria Math" size="48.0" />
          </font>
       </Text>
 
+      <!-- Botón Crear Garaje -->
       <Button fx:id="crear" layoutX="578.0" layoutY="273.0" mnemonicParsing="false" onAction="#changeSceneToCreateGarage" prefHeight="32.0" prefWidth="150.0" style="-fx-background-radius: 20; -fx-background-color: grey; -fx-text-fill: white;" text="Crear garaje">
          <font>
             <Font name="Cambria Math" size="16.0" />
          </font>
       </Button>
 
+      <!-- Tabla de garajes -->
       <TableView fx:id="table" layoutX="58.0" layoutY="127.0" prefHeight="278.0" prefWidth="483.0" style="-fx-background-color: #3a3a3a; -fx-border-color: #4851ff; -fx-border-width: 2px;">
          <columns>
             <TableColumn fx:id="Id" prefWidth="63.99997138977051" style="-fx-background-color: white; -fx-text-fill: white;" text="ID" />
@@ -31,18 +34,21 @@
          </columns>
       </TableView>
 
+      <!-- Botón de retroceso -->
       <ImageView fx:id="volver" fitHeight="51.0" fitWidth="54.0" layoutX="26.0" layoutY="27.0" onMouseClicked="#changeSceneToMainPage" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="" />
+            <Image url="@Back.png" />
          </image>
       </ImageView>
 
+      <!-- Botón Borrar Garaje -->
       <Button fx:id="eliminar" layoutX="581.0" layoutY="211.0" mnemonicParsing="false" onAction="#changeSceneToDeleteGarage" prefHeight="32.0" prefWidth="144.0" style="-fx-background-radius: 20; -fx-background-color: grey; -fx-text-fill: white;" text="Borrar garaje">
          <font>
             <Font name="Cambria Math" size="16.0" />
          </font>
       </Button>
 
+      <!-- Botón Configurar Coches -->
       <Button fx:id="anadir" layoutX="578.0" layoutY="145.0" mnemonicParsing="false" onAction="#changeSceneToAddCarsGarage" prefHeight="32.0" prefWidth="150.0" style="-fx-background-radius: 20; -fx-background-color: grey; -fx-text-fill: white;" text="Configurar coches">
          <font>
             <Font name="Cambria Math" size="16.0" />

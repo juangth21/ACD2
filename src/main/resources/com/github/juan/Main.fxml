@@ -9,24 +9,30 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="764.0" style="-fx-background-color: #121212;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.juan.view.MainController">
    <children>
+      <!-- Imagen principal -->
       <ImageView fitHeight="517.0" fitWidth="487.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@PrincipalImage.png" />
          </image>
       </ImageView>
 
+      <!-- Título principal -->
       <Text fill="WHITE" layoutX="508.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Que le gustaria hacer?">
          <font>
             <Font name="Cambria Math" size="24.0" />
          </font>
       </Text>
 
+      <!-- Botón "Gestionar usuarios" -->
       <Button fx:id="users" layoutX="547.0" layoutY="101.0" mnemonicParsing="false" onAction="#changeSceneToUsersConfig" prefHeight="41.0" prefWidth="157.0" style="-fx-background-radius: 20; -fx-background-color: #2d3e50; -fx-text-fill: white; -fx-font-size: 14px; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0.0, 0, 2);" text="Gestionar usuarios" />
 
+      <!-- Botón "Gestionar garajes" -->
       <Button fx:id="garages" layoutX="547.0" layoutY="181.0" mnemonicParsing="false" onAction="#changeSceneToGaragesConfig" prefHeight="41.0" prefWidth="157.0" style="-fx-background-radius: 20; -fx-background-color: #3e4b5e; -fx-text-fill: white; -fx-font-size: 14px; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0.0, 0, 2);" text="Gestionar garajes" />
 
+      <!-- Botón "Gestionar coches" -->
       <Button fx:id="cars" layoutX="547.0" layoutY="256.0" mnemonicParsing="false" onAction="#changeSceneToCarsConfig" prefHeight="41.0" prefWidth="157.0" style="-fx-background-radius: 20; -fx-background-color: #424d5d; -fx-text-fill: white; -fx-font-size: 14px; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0.0, 0, 2);" text="Gestionar coches" />
 
+      <!-- Botón "Cerrar sesión" -->
       <Button fx:id="logout" layoutX="576.0" layoutY="341.0" mnemonicParsing="false" onAction="#Logout" style="-fx-background-color: #6c757d; -fx-text-fill: white; -fx-font-size: 14px; -fx-background-radius: 20; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0.0, 0, 2);" text="Cerrar Sesion" />
    </children>
 </Pane>

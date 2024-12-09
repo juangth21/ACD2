@@ -10,39 +10,46 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="617.0" prefWidth="793.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.juan.view.CreateGarageController">
    <children>
+      <!-- Etiqueta de Localización -->
       <Text fill="WHITE" layoutX="324.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Localización del garaje">
          <font>
             <Font name="Cambria Math" size="14.0" />
          </font>
       </Text>
+      <!-- Campo de texto para Localización -->
       <TextField fx:id="location" layoutX="298.0" layoutY="240.0" prefHeight="36.0" prefWidth="198.0">
          <font>
             <Font name="Cambria Math" size="12.0" />
          </font>
       </TextField>
 
+      <!-- Título principal de la pantalla -->
       <Text fill="WHITE" layoutX="305.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Añadir garaje" textAlignment="CENTER">
          <font>
             <Font name="Cambria Math" size="30.0" />
          </font>
       </Text>
 
+      <!-- Etiqueta de Capacidad -->
       <Text fill="WHITE" layoutX="366.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Capacidad">
          <font>
             <Font name="Cambria Math" size="14.0" />
          </font>
       </Text>
+      <!-- Campo de texto para Capacidad -->
       <TextField fx:id="capacity" layoutX="298.0" layoutY="324.0" prefHeight="36.0" prefWidth="198.0">
          <font>
             <Font name="Cambria Math" size="12.0" />
          </font>
       </TextField>
 
+      <!-- Botón para añadir garaje -->
       <Button fx:id="crear" layoutX="298.0" layoutY="385.0" mnemonicParsing="false" onAction="#createGarage" prefHeight="30.0" prefWidth="94.0" style="-fx-background-radius: 20; -fx-background-color: #62666e;" text="Añadir" />
 
+      <!-- Botón para volver a la configuración de garajes -->
       <ImageView fx:id="botonn" fitHeight="36.0" fitWidth="36.0" layoutX="10.0" layoutY="24.0" onMouseClicked="#changeSceneToGarageConfig" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image fx:id="boton" url="" />
+            <Image fx:id="boton" url="@Back.png" />
          </image>
       </ImageView>
    </children>

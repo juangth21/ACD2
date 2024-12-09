@@ -27,3 +27,13 @@ f
 6src/main/java/com/github/juan/Model/dao/GarageDAO.java,d\8\d81cff0c17402818b3f2fbe25d2ac87954423a74
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+j
+:src/main/java/com/github/juan/view/RegisterController.java,7\4\74fd657d789d8c2b2e16ca079c00190e3f4d9dee
+l
+<src/main/java/com/github/juan/view/DeleteUserController.java,3\8\389c7c0acfb390a62193de4eae9a8f7172663eb8
+g
+7src/main/java/com/github/juan/view/LoginController.java,c\7\c70c9ae166eff4d22ca90be94122d3e5ac96f186
+\
+,src/main/java/com/github/juan/view/View.java,3\c\3c1bfd02cd401881202b36d4a70cbfbd6e9e11dd
+^
+.src/main/java/com/github/juan/view/Scenes.java,1\d\1d7574f79f542b5156d501cec74f614a569289c0
