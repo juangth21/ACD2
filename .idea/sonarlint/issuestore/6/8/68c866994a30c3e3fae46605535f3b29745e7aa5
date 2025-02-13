@@ -1,0 +1,32 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñª‘Ú8ŸÊ¸‘Í2J$86778dc6-cbf3-4910-b443-cebef71d1523
+ˆ	java:S112("FDefine and throw a dedicated exception instead of using a generic one.(İïæ–8«Ê¸‘Í2J$952beccb-dad7-4ef6-b27d-c9533905e936
+	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(Ú¾ú½üÿÿÿÿ8«Ê¸‘Í2J$dfd5b2af-de94-44e5-b6da-dead3e263b5a
+ˆ	java:S112B"FDefine and throw a dedicated exception instead of using a generic one.(ëØ²ú8«Ê¸‘Í2J$acb5eecb-f391-4282-8527-1f30164f08b0
+ˆ	java:S112W"FDefine and throw a dedicated exception instead of using a generic one.(ØÏÆï8«Ê¸‘Í2J$f0dcd6fa-3481-4312-a235-74f008115480
+ˆ	java:S112m"FDefine and throw a dedicated exception instead of using a generic one.(ô¸˜¥8¬Ê¸‘Í2J$a977d8c5-b191-4e84-bafb-16bf71b908a3
+‰	java:S112†"FDefine and throw a dedicated exception instead of using a generic one.(•‘Ó°8¬Ê¸‘Í2J$143c0f53-38f5-4e22-9bcc-1f8d0454dd4c
+
+java:S1192R"FDefine a constant instead of duplicating this literal "model" 3 times.(ºÂ©ııÿÿÿÿ8­Ê¸‘Í2J$db7c8247-a021-4863-96bc-96f309068e91
+‹
+java:S1192S"HDefine a constant instead of duplicating this literal "tuition" 3 times.(áàø´8®Ê¸‘Í2J$87021742-7be3-44f6-8e02-86833c41a8da
+É
+java:S1186t"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8°Ê¸‘Í2J$7ea15077-47eb-4742-b89b-3a09c5747ec7
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¼’ÿ§8ºÊ¸‘Í2J$6555a773-382f-4ebc-bb6e-a53c85851d64
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(•Ë‚Ô8¼Ê¸‘Í2J$7807a0c9-b97c-4761-babb-01a0a15fe0a8
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ğ°ÓÆûÿÿÿÿ8½Ê¸‘Í2J$b084d868-bbf9-4948-8ba5-030dce13b023
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ã»Í8¿Ê¸‘Í2J$2852da61-44ae-4523-bd18-29feab263de5
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¶¦™£üÿÿÿÿ8ÀÊ¸‘Í2J$7b4e42bd-9845-4ad3-96bf-184bcd242cba
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¿¬Óî8ÁÊ¸‘Í2J$2899ba11-116c-4671-b9ff-d0b7d159bd30
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(­“†àıÿÿÿÿ8ÂÊ¸‘Í2J$5b7edbce-9a86-47a1-8c79-cd1f02fa63b7
+w
+java:S2695%"/This "PreparedStatement" only has 3 parameters.(ÅèÕ˜ûÿÿÿÿ8ÏÊ¸‘Í2J$5369f80a-7731-42df-8fcc-9b209cd5ea9f
+r
+java:S26953"/This "PreparedStatement" only has 3 parameters.(‹Ùõ8ÓÊ¸‘Í2J$c12d3c52-fbd9-4bae-be8b-92749de97bce

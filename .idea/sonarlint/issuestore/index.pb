@@ -37,3 +37,9 @@ g
 ,src/main/java/com/github/juan/view/View.java,3\c\3c1bfd02cd401881202b36d4a70cbfbd6e9e11dd
 ^
 .src/main/java/com/github/juan/view/Scenes.java,1\d\1d7574f79f542b5156d501cec74f614a569289c0
+c
+3src/main/java/com/github/juan/utils/XMLManager.java,1\3\13af5c93b6ce06296059f088c8b55980aae444aa
+g
+7src/main/java/com/github/juan/utils/PasswordHasher.java,c\b\cb5bb10671e07cae5e79245aab034f1356751962
+d
+4src/main/java/com/github/juan/Model/dao/CarsDAO.java,6\8\68c866994a30c3e3fae46605535f3b29745e7aa5
